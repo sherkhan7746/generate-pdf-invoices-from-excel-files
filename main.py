@@ -29,6 +29,7 @@ for filepath in filepaths:
     pdf.cell(w=35, h=8, border=1, txt=column[2])
     pdf.cell(w=30, h=8, border=1, txt=column[3])
     pdf.cell(w=30, h=8, border=1, txt=column[4], ln=1)
+    sum = df[""]
     for index, row in df.iterrows():
         pdf.set_font(family="Times",size=10)
         pdf.set_text_color(80, 80, 80)
