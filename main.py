@@ -43,10 +43,10 @@ for filepath in filepaths:
     pdf.cell(w=60, h=8, border=1, txt="")
     pdf.cell(w=35, h=8, border=1, txt="")
     pdf.cell(w=30, h=8, border=1, txt="")
-    pdf.set_font(family="Times", size=10,style="b")
+    pdf.set_font(family="Times", size=10, style="b")
     pdf.cell(w=30, h=8, border=1, txt=str(sum), ln=1)
 
-    pdf.set_font(family="Times", size=10,style="b")
+    pdf.set_font(family="Times", size=10, style="b")
     pdf.cell(w=30, h=10, txt=f"The total due sum is {sum}")
     pdf.output(f"PDFs/{filename}.pdf")
 
